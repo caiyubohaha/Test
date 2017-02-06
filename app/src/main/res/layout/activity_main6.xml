@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.comcyb.activity.Main6Activity">
+    <cn.comcyb.view.DragViewGroup
+        android:id="@+id/dg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <include
+            android:id="@+id/menu"
+            layout="@layout/menu"
+            />
+        <include
+            android:id="@+id/main"
+            layout="@layout/main"
+            />
+    </cn.comcyb.view.DragViewGroup>
+
+</RelativeLayout>

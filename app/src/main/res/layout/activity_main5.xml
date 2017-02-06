@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.comcyb.activity.Main5Activity">
+
+    <cn.comcyb.view.ViewDraghelperLlout
+        android:id="@+id/viewdraghelpllout"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/tv"
+            android:gravity="center"
+            android:background="@drawable/shape1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="傻逼"/>
+
+        <TextView
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="傻逼2"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </cn.comcyb.view.ViewDraghelperLlout>
+
+
+</RelativeLayout>

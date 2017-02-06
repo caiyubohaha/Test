@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.comcyb.activity.Main3Activity">
+    <!--<TextView
+        android:id="@+id/tv"
+        tools:text="傻逼"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_2"
+        tools:text="shabi2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_3"
+        tools:text="shabi3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />-->
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_blue_light" />
+
+</RelativeLayout>

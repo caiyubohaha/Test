@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_xia_la"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.comcyb.activity.XiaLaActivity">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="llClick"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/app_icon"
+            android:src="@drawable/application_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ClickMe"
+            android:textSize="30sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hidden_view"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="llClick"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/application_6"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am hidden"
+            android:textSize="30sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

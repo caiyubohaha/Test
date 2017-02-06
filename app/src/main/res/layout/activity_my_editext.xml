@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_editext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.comcyb.activity.MyEditextActivity">
+    <cn.comcyb.view.CopyEditext
+        android:id="@+id/ev"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="大傻逼"/>
+
+
+
+    <EditText
+        android:id="@+id/eve"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="400dp"
+        android:layout_height="200dp" />
+
+</RelativeLayout>
